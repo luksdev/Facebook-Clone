@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+body{
+  background: #f0f2f5;
+}
+.container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  max-width: 900px;
+  margin-top: 5rem;
+}
+.center img{
+  width: 300px;
+  margin-left: -2rem;
+  margin-bottom: 0px;
+}
+
+.center h2{
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  font-size: 28px;
+  text-justify:inter-ideograph;
+}
+
+.container-form{
+  margin-top: 10rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  width: 396px;
+  height: 330px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);;
+}
+
+.container-form label{
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+}
+
+.container-form label input{
+  margin-top: 0.5rem;
+  width: 350px;
+  height: 55px;
+  border-radius: 8px;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #1d2129;
+}
+
+.container-form .btn-login{
+  width: 350px;
+  height: 45px;
+  border-radius: 6px;
+  background: #1877f2;
+  border: 1px solid #fff;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.container-form .btn-login:hover{
+  background: #1465ce;
+}
+
+.container-form a{
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #1465ce;
+}
+
+.container-form .btn-newacc{
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  background: #42b72a;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+hr{
+  width: 350px;
+  margin: 20px 0px 20px ;
+  background: rgba(0,0,0,0.8);
+}
